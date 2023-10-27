@@ -1,0 +1,112 @@
+/* 
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} */
+
+.section-background{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   
+}
+
+.section-content .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+    padding-bottom: 8em;
+    padding-top: 5em;
+    
+    margin: 0 auto;
+
+}
+.section-content{
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+.section-content .container article{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    align-items: flex-start;
+}
+
+.section-content .container article h2{
+    font-weight: normal;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+.section-content .container article p{
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    padding-bottom: 2em;
+}
+
+.button a{
+    display: block;
+    text-decoration: none;
+    color: #B0825C;
+    border: 2px solid #B0825C;
+    text-align: center;
+    border-radius: 0.1em;
+    padding: 0.2em 1em;
+    font-weight: bold;
+}
+.section-sponsors{
+    background-color: white;
+} 
+.section-sponsors .container {
+    text-align: center;
+    
+    margin: 0 auto;
+}
+.section-sponsors .container h2{
+    font-weight: normal;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    padding-top: 1em;
+    color: #B0825C;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4em 0em;
+    padding:  0em 30em;
+    
+}
+.logos article{
+    
+    background-color: #DDDDDD;
+    border-radius: 50%;
+}
+.logos img{
+    width: 8em;
+    height: 8em;
+    margin: 0 1em;
+    padding: 1em;
+    
+}
+.section-partners{
+    background-color: white;
+}
+.section-partners .container{
+    text-align: center;
+    margin: 0 auto;
+
+}
+.section-partners .container h2{
+    font-weight: normal;
+    font-size: 2.5em;
+    color: #B0825C;margin-bottom: 0.3em;
+}
+
+.section-partners .container p{
+    padding-bottom: 4em;
+}

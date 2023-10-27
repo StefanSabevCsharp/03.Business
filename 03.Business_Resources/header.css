@@ -1,0 +1,25 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 15em;
+}
+
+.section-header .container{
+  
+     padding-top: 5em;
+    padding-bottom: 12em;
+    margin: 0 auto;
+
+}
+.section-header .container h1{
+    font-size: 3em;
+    color: white;
+    font-weight: normal;
+    line-height: 1.2
+}
+.section-header .container p{
+    color: white;
+    padding-top: 1em;
+    max-width: 60ch;
+    padding-bottom: 2em;
+}
